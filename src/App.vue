@@ -1,5 +1,5 @@
 <template>
-  <div id="app" v-bind:class="randomBackgroundClass()">
+  <div id="app"><!-- v-bind:class="randomBackgroundClass()" -->
     <div class="container">
     <nav>
     <router-link to="/">Home</router-link>
@@ -61,6 +61,7 @@ nav a:hover {
   min-height: 100vh;
   background-size: cover;
   background-attachment: fixed;
+  background: url(./assets/bg1.jpg);
 }
 .bg1 {
   background: url(./assets/bg1.jpg);
