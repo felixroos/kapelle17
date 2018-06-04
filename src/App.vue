@@ -44,12 +44,12 @@ nav {
 
 nav a {
   margin: 20px;
-  color: white;
+  color: #73b784;
   text-decoration: none;
 }
 
 nav a:hover {
-  color: #73b784;
+  color: white;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -63,6 +63,10 @@ nav a:hover {
   min-height: 100vh;
   background-size: cover;
   background-attachment: fixed;
+}
+h1 {
+  color: white;
+  font-weight: bold;
 }
 .bg1 {
   background: url(https://image.ibb.co/j0UidT/bg1.jpg);
@@ -82,7 +86,7 @@ nav a:hover {
 .container {
   width: 100vw;
   min-height: 100vh;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
   background-color: rgba(50, 50, 50, 0.7);
   padding-top: 60px;
 }
