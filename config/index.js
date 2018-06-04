@@ -8,7 +8,7 @@ module.exports = {
   dev: {
 
     // Paths
-    assetsSubDirectory: 'static',
+    assetsSubDirectory: 'kapelle17/static',
     assetsPublicPath: '/',
     proxyTable: {},
 
