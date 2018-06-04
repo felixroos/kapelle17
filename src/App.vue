@@ -1,5 +1,5 @@
 <template>
-  <div id="app"><!-- v-bind:class="randomBackgroundClass()" -->
+  <div id="app" v-bind:class="randomBackgroundClass()">
     <div class="container">
     <nav>
     <router-link to="/">Home</router-link>
@@ -35,7 +35,7 @@ body {
 nav {
   display: flex;
   width: 100%;
-  background-color: #212121;
+  background-color: #191919;
   justify-content: center;
   margin: 0;
   position: fixed;
@@ -63,25 +63,27 @@ nav a:hover {
   min-height: 100vh;
   background-size: cover;
   background-attachment: fixed;
-  background: url(./assets/bg1.jpg);
 }
 .bg1 {
-  background: url(./assets/bg1.jpg);
+  background: url(https://image.ibb.co/j0UidT/bg1.jpg);
 }
 .bg2 {
-  background: url(./assets/bg2.jpg);
+  background: url(https://image.ibb.co/jbYWXo/bg2.jpg);
 }
 .bg3 {
-  background: url(./assets/bg3.jpg);
+  background: url(https://preview.ibb.co/iORUJT/bg3.jpg);
 }
 .bg4 {
-  background: url(./assets/bg4.jpg);
+  background: url(https://image.ibb.co/gEpidT/bg4.jpg);
+}
+.bg5 {
+  background: url(https://image.ibb.co/dwMUJT/bg5.jpg);
 }
 .container {
   width: 100vw;
   min-height: 100vh;
   padding-bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(50, 50, 50, 0.7);
   padding-top: 60px;
 }
 .content {
