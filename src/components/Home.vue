@@ -1,97 +1,49 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li>
-        <a
-          href="https://vuejs.org"
-          target="_blank"
-        >
-          Core Docs
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://forum.vuejs.org"
-          target="_blank"
-        >
-          Forum
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://chat.vuejs.org"
-          target="_blank"
-        >
-          Community Chat
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://twitter.com/vuejs"
-          target="_blank"
-        >
-          Twitter
-        </a>
-      </li>
-      <br>
-      <li>
-        <a
-          href="http://vuejs-templates.github.io/webpack/"
-          target="_blank"
-        >
-          Docs for This Template
-        </a>
-      </li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li>
-        <a
-          href="http://router.vuejs.org/"
-          target="_blank"
-        >
-          vue-router
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://vuex.vuejs.org/"
-          target="_blank"
-        >
-          vuex
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://vue-loader.vuejs.org/"
-          target="_blank"
-        >
-          vue-loader
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/awesome-vue"
-          target="_blank"
-        >
-          awesome-vue
-        </a>
-      </li>
-    </ul>
+    <h1>Kapelle 17</h1>
+    <p>
+      Kapelle 17 ist in Mannheim zu Hause.
+      </p><p>
+Hier haben sich Jonas Kaltenbach (Drums), Jojo Mann (Gitarre), Benedikt Jäckle
+(Saxophon), Jakob Obleser (Bass) und Paul Janoschka (Piano) kennengelernt und
+gemeinsam angefangen, den Jazz zu ihrem Lebensinhalt zu machen.
+</p><p>
+Jeder der fünf Musiker hat inzwischen sein eigenes musikalisches Umfeld, bezieht
+Inspiration aus den unterschiedlichen Musik- und Kunstszenen der verschiedenen
+Städte, in denen sie jetzt wohnen.
+</p><p>
+Dass sie trotz der räumlichen Trennung weiterhin stetig als Band in Erscheinung
+treten, ist kein Zufall.
+</p><p>
+Kapelle 17 versteht sich als dauerhaftes, stetig wandelbares Projekt, wobei der
+permanente Austausch und die musikalische Konzeption im Voraus überwiegend im
+digitalen Raum sozialer Netzwerke stattfinden muss.
+</p><p>
+Dass der Kontakt digital und analog bestehen bleibt, geht auf die langjährigen,
+engen Freundschaften und die gegenseitige Unterstützung auf musikalischer, wie
+auf persönlicher Ebene zurück, die die Bandmitglieder fest miteinander verbindet.
+Es treten nicht zusammengewürfelte Musiker, sondern gute Freunde miteinander
+auf, denen die gemeinsame Entwicklung der Band, als auch der individuelle
+Fortschritt ihrer Mitspieler am Herzen liegt.
+</p><p>
+Die Freude sich persönlich wieder zu begegnen und gemeinsam auf Tour Zeit zu
+verbringen steht bei Kapelle 17 klar im Vordergrund und überträgt sich
+spiegelbildlich auf die Musik der Band.
+</p><p>
+Erst bei diesem analogen Zusammentreffen der Musiker erschließt sich die aktuelle
+Definition der Ästhetik, die die gemeinsam geschaffene Musik transportieren soll,
+vollständig. Hier treten die Musiker wieder in echten Kontakt, erfahren die anderen
+und sich selbst als individuelle Charaktere, die sich von Auftritt zu Auftritt
+musikalisch wie persönlich weiterentwickeln, verändern, ständig von einer anderen
+Seite zeigen und im Grunde doch für immer die gleichen bleiben werden.
+    </p>
   </div>
 </template>
 
 <script>
 /* eslint-disable */
 export default {
-  name: 'Home',
-  data() {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    };
-  }
+  name: 'Kapelle 17'
 };
 </script>
 
