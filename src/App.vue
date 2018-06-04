@@ -38,6 +38,8 @@ nav {
   background-color: #212121;
   justify-content: center;
   margin: 0;
+  position: fixed;
+  top: 0;
 }
 
 nav a {
@@ -77,8 +79,10 @@ nav a:hover {
 }
 .container {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  padding-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 60px;
 }
 .content {
   width: 60vw;
