@@ -8,8 +8,8 @@ module.exports = {
   dev: {
 
     // Paths
-    assetsSubDirectory: 'kapelle17/static',
-    assetsPublicPath: '/',
+    assetsSubDirectory: './static',
+    assetsPublicPath: './',
     proxyTable: {},
 
     // Various Dev Server settings
@@ -49,7 +49,7 @@ module.exports = {
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
-    assetsSubDirectory: 'static',
+    assetsSubDirectory: 'kapelle17/static',
     assetsPublicPath: '/',
 
     /**
