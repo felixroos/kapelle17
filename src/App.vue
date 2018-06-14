@@ -1,5 +1,5 @@
 <template>
-  <div id="app" v-bind:class="randomBackgroundClass()">
+  <div id="app"><!-- v-bind:class="randomBackgroundClass()" -->
     <div class="container">
     <nav>
       <div class="links">
@@ -70,7 +70,6 @@ nav a:hover {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: white;
   margin: 0;
   padding: 0;
@@ -79,30 +78,26 @@ nav a:hover {
   background-size: cover;
   background-attachment: fixed;
 }
-h1 {
-  color: white;
-  font-weight: bold;
-}
-.bg1 {
+.bg1media {
   background: url(https://image.ibb.co/j0UidT/bg1.jpg);
 }
-.bg2 {
+.bg2info {
   background: url(https://image.ibb.co/jbYWXo/bg2.jpg);
 }
-.bg3 {
-  background: url(https://preview.ibb.co/iORUJT/bg3.jpg);
-}
-.bg4 {
+/* .bg3 {
+  background: url(https://image.ibb.co/iORUJT/bg3.jpg);
+} */
+.bg4homecontact {
   background: url(https://image.ibb.co/gEpidT/bg4.jpg);
 }
-.bg5 {
+/* .bg5 {
   background: url(https://image.ibb.co/dwMUJT/bg5.jpg);
-}
+} */
 .container {
   width: 100vw;
   min-height: 100vh;
   padding-bottom: 60px;
-  background-color: rgba(50, 50, 50, 0.7);
+  background-color: rgba(0, 60, 70, 0.6);
   padding-top: 60px;
 }
 .content img {
