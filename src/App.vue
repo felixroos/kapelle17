@@ -1,8 +1,8 @@
 <template>
   <div id="app" v-bind:class="randomBackgroundClass()">
     <div class="container">
+      <img class="logo" src="https://image.ibb.co/cRKTXy/kapelle17logo.png">
     <nav>
-      <img src="https://image.ibb.co/cRKTXy/kapelle17logo.png">
       <div class="links">
     <router-link to="/">Start</router-link>
     <router-link to="/about">Info</router-link>
@@ -35,7 +35,7 @@ body {
   padding: 0;
   background-color: #212121;
 }
-nav img {
+.logo {
   position: fixed;
   left: 12px;
   top: 8px;
@@ -100,7 +100,7 @@ h1 {
   background-color: rgba(50, 50, 50, 0.7);
   padding-top: 60px;
 }
-.container img {
+.content img {
   width: 60vw;
 }
 .content {

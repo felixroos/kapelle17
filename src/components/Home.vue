@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
     <h1>Kapelle 17</h1>
-    {{events}}<!-- https://www.youtube.com/watch?v=dGnipWz1sXY -->
-  <h3 v-for="(item, index) in items" v-bind:key="index">
-    {{ item}}
+    <!-- https://www.youtube.com/watch?v=dGnipWz1sXY -->
+  <h3 v-for="(item, index) in events" v-bind:key="index">
+    {{item}}
   </h3>
   </div>
 </template>

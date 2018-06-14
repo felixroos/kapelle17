@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h2>Media</h2>
+    <h1>Media</h1>
     <!-- https://soundcloud.com/johannes-mann/trepak-livekorridor -->
     <!-- https://www.youtube.com/watch?v=dGnipWz1sXY -->
   </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h2>Kontakt</h2>
+    <h1>Kontakt</h1>
   <p>
     <a href="mailto:the.real.kapelle17@gmail.com">the.real.kapelle17@gmail.com</a><br/>
     telephone: +49 15 227160448 (Jonas Kaltenbach)

@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h2>Info</h2>
+    <h1>Info</h1>
     <p>
       Kapelle 17 ist in Mannheim zu Hause.
       </p><p>
