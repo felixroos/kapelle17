@@ -2,10 +2,13 @@
   <div id="app" v-bind:class="randomBackgroundClass()">
     <div class="container">
     <nav>
+      <img src="https://image.ibb.co/cRKTXy/kapelle17logo.png">
+      <div class="links">
     <router-link to="/">Start</router-link>
     <router-link to="/about">Info</router-link>
     <router-link to="/media">Media</router-link>
     <router-link to="/contact">Kontakt</router-link>
+    </div>
     </nav>
     <div class="content">
     <router-view/>
@@ -32,11 +35,14 @@ body {
   padding: 0;
   background-color: #212121;
 }
-
-nav {
+nav img {
+  float: left;
+  height: 100%;
+}
+nav .links {
   display: flex;
   width: 100%;
-  background-color: #191919;
+  background-color: #000000;
   justify-content: center;
   margin: 0;
   position: fixed;
@@ -45,7 +51,7 @@ nav {
 
 nav a {
   margin: 20px;
-  color: #73b784;
+  color: #DE771C;
   text-decoration: none;
 }
 

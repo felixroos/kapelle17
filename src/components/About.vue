@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
     <h2>Info</h2>
-    <img src="https://preview.ibb.co/dEsked/info.jpg"/>
     <p>
       Kapelle 17 ist in Mannheim zu Hause.
       </p><p>
@@ -38,6 +37,7 @@ und sich selbst als individuelle Charaktere, die sich von Auftritt zu Auftritt
 musikalisch wie persönlich weiterentwickeln, verändern, ständig von einer anderen
 Seite zeigen und im Grunde doch für immer die gleichen bleiben werden.
     </p>
+    <img src="https://preview.ibb.co/dEsked/info.jpg"/>
   </div>
 </template>
 
