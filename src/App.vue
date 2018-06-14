@@ -1,13 +1,13 @@
 <template>
   <div id="app" v-bind:class="randomBackgroundClass()">
     <div class="container">
-      <img class="logo" src="https://image.ibb.co/cRKTXy/kapelle17logo.png">
     <nav>
       <div class="links">
     <router-link to="/">Start</router-link>
     <router-link to="/about">Info</router-link>
     <router-link to="/media">Media</router-link>
     <router-link to="/contact">Kontakt</router-link>
+      <img class="logo" src="https://image.ibb.co/cRKTXy/kapelle17logo.png">
     </div>
     </nav>
     <div class="content">
@@ -35,10 +35,15 @@ body {
   padding: 0;
   background-color: #212121;
 }
+
+h1,
+h2 {
+  font-weight: normal;
+}
 .logo {
   position: fixed;
   left: 12px;
-  top: 8px;
+  top: 0px;
   height: 50px;
   margin-top: 8px;
 }
