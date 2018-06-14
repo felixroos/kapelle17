@@ -4,7 +4,7 @@
   <p><a href="mailto:the.real.kapelle17@gmail.com">the.real.kapelle17@gmail.com</a>
     <br/>telephone: +49 15 227160448 (Jonas Kaltenbach)
   </p>
-  <img src="https://image.ibb.co/c0gCaJ/contact.jpg"/>
+  <img class="center-img" src="https://image.ibb.co/c0gCaJ/contact.jpg"/>
   </div>
 </template>
 

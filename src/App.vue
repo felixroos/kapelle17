@@ -100,7 +100,7 @@ nav a:hover {
   background-color: rgba(0, 60, 70, 0.6);
   padding-top: 60px;
 }
-.content img {
+.content .center-img {
   width: 60vw;
 }
 .content {
