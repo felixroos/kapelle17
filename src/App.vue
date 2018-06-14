@@ -36,8 +36,11 @@ body {
   background-color: #212121;
 }
 nav img {
-  float: left;
-  height: 100%;
+  position: fixed;
+  left: 12px;
+  top: 8px;
+  height: 50px;
+  margin-top: 8px;
 }
 nav .links {
   display: flex;
@@ -49,9 +52,9 @@ nav .links {
   top: 0;
 }
 
-nav a {
+a {
   margin: 20px;
-  color: #DE771C;
+  color: #de771c;
   text-decoration: none;
 }
 
@@ -96,6 +99,9 @@ h1 {
   padding-bottom: 60px;
   background-color: rgba(50, 50, 50, 0.7);
   padding-top: 60px;
+}
+.container img {
+  width: 60vw;
 }
 .content {
   width: 60vw;
