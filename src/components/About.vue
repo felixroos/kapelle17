@@ -50,7 +50,7 @@ Seite zeigen und im Grunde doch für immer die gleichen bleiben werden.
     <p>Paul Janoschka (Klavier) steht bereits am Ende seines Studiums, in Mannheim studierte er zuerst bei Prof. Joerg Reiter und seit 2015 bei Prof. Rainer Böhm. Er gehört im Rhein-Neckar Raum über die Szene der Mannheimer Hochschule hinaus zu den aktivsten Musikern seiner Generation, ist regelmäßig aber auch mit älteren Musikern zu hören, so zum Beispiel bei der Kicks & Sticks Big Band. Paul Janoschka ist Preisträger des Yamaha Jazz Piano Wettbewerbs 2016 und Stipendiat der Yehudin Menuhin Live Music Now Stiftung Rhein-Neckar.</p>
     </div>
     <div class="member right">
-    <img src="ttps://preview.ibb.co/mswmKd/jakob.png"/>
+    <img src="https://preview.ibb.co/mswmKd/jakob.png"/>
     <p>Jakob Obleser (Kontrabass) begann sein Studium im zarten Alter von 16 Jahren in Stuttgart, ab Ende 2016 konnte er für ein Auslandsjahr nach Paris gehen. Seit seiner Rückkehr nach Baden-Württemberg ist er noch mehr als zuvor einer der begehrtesten Bassisten seiner Generation, was er seinem entspannten und freundlichen Auftreten, einem beeindruckenden Bassspiel und seiner großen musikalischen Vorstellungskraft zu verdanken hat.</p>
     </div>
     <div class="member left">
@@ -69,6 +69,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.member {
+  clear: both;
+}
 .member img {
   width: 40%;
 }
@@ -76,7 +79,7 @@ export default {
   float: left;
   margin-right: 10px;
 }
-.member img.right {
+.member.right img {
   float: right;
   margin-left: 10px;
 }
