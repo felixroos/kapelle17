@@ -73,9 +73,9 @@ export default {
   clear: both;
 }
 .member img {
-  width: 40%;
+  width: 45%;
 }
-.member img.left {
+.member.left img {
   float: left;
   margin-right: 10px;
 }
