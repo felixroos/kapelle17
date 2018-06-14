@@ -71,9 +71,11 @@ export default {
 <style scoped>
 .member {
   clear: both;
+  margin-bottom: 20px;
 }
 .member img {
   width: 45%;
+  margin-bottom: 20px;
 }
 .member.left img {
   float: left;
