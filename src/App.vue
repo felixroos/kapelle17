@@ -1,5 +1,5 @@
 <template>
-  <div id="app"><!-- v-bind:class="randomBackgroundClass()" -->
+  <div id="app" class="bg4homecontact"><!-- v-bind:class="randomBackgroundClass()" -->
     <div class="container">
     <nav>
       <div class="links">
