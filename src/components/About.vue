@@ -74,6 +74,7 @@ export default {
   display: flex;
 }
 .member img {
+  flex-shrink: 0;
   align-self: center;
   width: 200px !important;
   height: 200px !important;
