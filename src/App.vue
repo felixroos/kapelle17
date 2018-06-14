@@ -2,9 +2,10 @@
   <div id="app" v-bind:class="randomBackgroundClass()">
     <div class="container">
     <nav>
-    <router-link to="/">Home</router-link>
-    <router-link to="/events">Events</router-link>
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Start</router-link>
+    <router-link to="/about">Info</router-link>
+    <router-link to="/media">Media</router-link>
+    <router-link to="/contact">Kontakt</router-link>
     </nav>
     <div class="content">
     <router-view/>
