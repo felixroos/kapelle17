@@ -1,9 +1,7 @@
 <template>
   <div class="hello">
     <h1>Info</h1>
-    <p>
-      Kapelle 17 ist in Mannheim zu Hause.
-      </p>  
+    <p>Kapelle 17 ist in Mannheim zu Hause.</p>  
     <p>
 Hier haben sich Jonas Kaltenbach (Drums), Jojo Mann (Gitarre), Benedikt Jäckle
 (Saxophon), Jakob Obleser (Bass) und Paul Janoschka (Piano) kennengelernt und
