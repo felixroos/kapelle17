@@ -72,17 +72,12 @@ export default {
 .member {
   clear: both;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 .member img {
   width: 45%;
   margin-bottom: 20px;
-}
-.member.left img {
-  float: left;
-  margin-right: 10px;
-}
-.member.right img {
-  float: right;
-  margin-left: 10px;
+  margin: 10px;
 }
 </style>
