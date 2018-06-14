@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h2>Info</h2>
-    <!-- https://www.facebook.com/kapelle17/photos/a.2013804925515407.1073741828.2001605873401979/2095030910726141/?type=3&theater -->
+    <img src="https://preview.ibb.co/dEsked/info.jpg"/>
     <p>
       Kapelle 17 ist in Mannheim zu Hause.
       </p><p>

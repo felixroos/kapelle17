@@ -1,8 +1,10 @@
 <template>
   <div class="hello">
     <h2>Kontakt</h2>
-  <p>KONTAKT</p>
-  <!-- https://www.facebook.com/kapelle17/photos/rpp.2001605873401979/2013802765515623/?type=3&theater -->
+  <p>
+    Jonas Kaltenbach Telefon: +49 15 227160448
+  </p>
+  <img src="https://image.ibb.co/cYy2QJ/contact.jpg"/>
   </div>
 </template>
 
