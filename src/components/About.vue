@@ -75,8 +75,8 @@ export default {
   justify-content: center;
 }
 .member img {
-  width: 200px;
-  height: 200px;
+  width: 200px !important;
+  height: 200px !important;
   margin-bottom: 20px;
   margin: 10px;
 }
