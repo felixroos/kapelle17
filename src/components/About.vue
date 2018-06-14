@@ -72,7 +72,6 @@ export default {
   clear: both;
   margin-bottom: 20px;
   display: flex;
-  justify-content: center;
 }
 .member img {
   align-self: center;
