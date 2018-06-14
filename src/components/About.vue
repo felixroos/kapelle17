@@ -79,5 +79,6 @@ export default {
   height: 200px !important;
   margin-bottom: 20px;
   margin: 10px;
+  display: block;
 }
 </style>
