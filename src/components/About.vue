@@ -37,7 +37,7 @@ musikalisch wie persönlich weiterentwickeln, verändern, ständig von einer and
 Seite zeigen und im Grunde doch für immer die gleichen bleiben werden.
     </p>
     <div class="member left">
-    <img src="https://preview.ibb.co/fOJBkJ/jojo.png"/>
+    <img src="https://preview.ibb.co/grckvJ/jojo.png"/>
     <p>Jojo Mann (Gitarre) kommt ursprünglich aus dem Stuttgarter Raum, für sein Studium zog es ihn bereits mit 18 Jahren nach Mannheim zu Prof. Frank Kuruc und 2017 dann zu Hanno Busch nach Berlin. Er ist für seinen sorgfältig erarbeiteten Sound und seine fesselnden Soli bekannt und beliebt und spielt seit März 2018 im Bundesjugendjazzorchester (BuJazzO).</p>
     </div>
     <div class="member right">
