@@ -17,7 +17,7 @@ Kapelle 17 versteht sich als dauerhaftes, stetig wandelbares Projekt, wobei der
 permanente Austausch und die musikalische Konzeption im Voraus überwiegend im
 digitalen Raum sozialer Netzwerke stattfinden muss.
 </p>
-<img src="https://preview.ibb.co/dEsked/info.jpg"/>
+<img src="https://preview.ibb.co/ddtm2y/info.jpg"/>
 <p>
 Dass der Kontakt digital und analog bestehen bleibt, geht auf die langjährigen,
 engen Freundschaften und die gegenseitige Unterstützung auf musikalischer, wie
