@@ -1,6 +1,7 @@
 /* eslint-disable */
 import About from '@/components/About';
 import Contact from '@/components/Contact';
+import Dates from '@/components/Dates';
 import Home from '@/components/Home';
 import Media from '@/components/Media';
 import Vue from 'vue';
@@ -14,6 +15,11 @@ export default new Router({
       path: '/',
       name: 'Start',
       component: Home
+    },
+    {
+      path: '/dates',
+      name: 'Termine',
+      component: Dates
     },
     {
       path: '/about',

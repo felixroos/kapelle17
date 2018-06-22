@@ -1,9 +1,10 @@
 <template>
   <div class="hello">
     <h1>Kontakt</h1>
-  <p><a href="mailto:the.real.kapelle17@gmail.com">the.real.kapelle17@gmail.com</a>
-    <br/>telephone: +49 15 227160448 (Jonas Kaltenbach)
-  </p>
+    <p><a href="info.kapelle17@googlemail.com">info.kapelle17@googlemail.com</a><br>
+    Jonas Kaltenbach<br>
+    +4915227160448</p>
+
   <img class="center-img" src="https://image.ibb.co/c0gCaJ/contact.jpg"/>
   </div>
 </template>

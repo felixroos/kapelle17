@@ -4,6 +4,7 @@
     <nav>
       <div class="links">
     <router-link to="/">Start</router-link>
+    <router-link to="/dates">Termine</router-link>
     <router-link to="/about">Info</router-link>
     <router-link to="/media">Media</router-link>
     <router-link to="/contact">Kontakt</router-link>
@@ -58,11 +59,12 @@ nav .links {
 }
 
 a {
-  margin: 20px;
   color: #de771c;
   text-decoration: none;
 }
-
+nav a {
+  margin: 20px;
+}
 nav a:hover {
   color: white;
 }
@@ -97,7 +99,7 @@ nav a:hover {
   width: 100vw;
   min-height: 100vh;
   padding-bottom: 60px;
-  background-color: rgba(0, 60, 70, 0.6);
+  background-color: rgba(0, 60, 70, 0.4);
   padding-top: 60px;
 }
 .content .center-img {
@@ -107,5 +109,20 @@ nav a:hover {
   width: 60vw;
   max-width: 1000px;
   margin: auto;
+}
+
+.member {
+  clear: both;
+  margin-bottom: 20px;
+  display: flex;
+}
+.member img {
+  flex-shrink: 0;
+  align-self: center;
+  width: 200px !important;
+  height: 200px !important;
+  margin-bottom: 20px;
+  margin: 10px;
+  display: block;
 }
 </style>
