@@ -7,8 +7,8 @@ module.exports = {
   dev: {
     // historyApiFallback: true,
     // Paths
-    assetsSubDirectory: './static',
-    assetsPublicPath: './',
+    assetsSubDirectory: '/static',
+    assetsPublicPath: '',
     proxyTable: {},
 
     // Various Dev Server settings

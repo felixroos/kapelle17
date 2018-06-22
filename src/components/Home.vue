@@ -12,7 +12,7 @@
 <script>
 /* eslint-disable */
 export default {
-  name: 'Kapelle 17',
+  name: 'Kapelle17',
   data() {
     return {
       events: [
