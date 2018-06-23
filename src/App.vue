@@ -124,7 +124,7 @@ nav a:hover {
   margin-bottom: 20px;
   display: flex;
 }
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
   .content {
     width: 90vw;
   }
