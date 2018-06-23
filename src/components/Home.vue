@@ -6,6 +6,7 @@
     {{item}}
   </h3> -->
   <img class="center-img" src="https://image.ibb.co/mXoHuo/band.jpg"/>
+<h3>Benedikt Jäckle - Tenor</h3>
 <h3>Jojo Mann - Gitarre</h3>
 <h3>Paul Janoschka - Piano</h3>
 <h3>Jakob Obleser - Bass</h3>
