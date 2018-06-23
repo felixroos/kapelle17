@@ -125,6 +125,15 @@ nav a:hover {
   display: flex;
 }
 @media only screen and (max-width: 800px) {
+  .content {
+    width: 90vw;
+  }
+  .content .center-img {
+    width: 90vw;
+  }
+  iframe {
+    width: 90vw;
+  }
   .member {
     flex-wrap: wrap;
   }
