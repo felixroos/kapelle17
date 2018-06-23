@@ -1,18 +1,17 @@
 <template>
-  <div id="app" class="bg4homecontact"><!-- v-bind:class="randomBackgroundClass()" -->
+  <div id="app" class="background">
+    <!-- <div class="overlay"></div> -->
     <div class="container">
     <nav>
-      <div class="links">
     <router-link to="/">Start</router-link>
     <router-link to="/dates">Termine</router-link>
     <router-link to="/about">Info</router-link>
     <router-link to="/media">Media</router-link>
     <router-link to="/contact">Kontakt</router-link>
       <img class="logo" src="https://image.ibb.co/cRKTXy/kapelle17logo.png">
-    </div>
     </nav>
     <div class="content">
-    <router-view/>
+    <router-view class="overlay"/>
     </div>
     </div>
   </div>
@@ -31,6 +30,9 @@ export default {
 </script>
 
 <style>
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0;
@@ -48,7 +50,7 @@ h2 {
   height: 50px;
   margin-top: 8px;
 }
-nav .links {
+nav {
   display: flex;
   width: 100%;
   background-color: #000000;
@@ -63,7 +65,7 @@ a {
   text-decoration: none;
 }
 nav a {
-  margin: 20px;
+  padding: 20px;
 }
 nav a:hover {
   color: white;
@@ -76,32 +78,39 @@ nav a:hover {
   margin: 0;
   padding: 0;
   display: block;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: auto;
   background-size: cover;
   background-attachment: fixed;
 }
-.bg1media {
-  background: url(https://image.ibb.co/j0UidT/bg1.jpg);
-}
-.bg2info {
-  background: url(https://image.ibb.co/jbYWXo/bg2.jpg);
-}
-/* .bg3 {
-  background: url(https://image.ibb.co/iORUJT/bg3.jpg);
-} */
-.bg4homecontact {
+.background {
   background: url(https://image.ibb.co/gEpidT/bg4.jpg);
+  z-index: -2;
 }
-/* .bg5 {
-  background: url(https://image.ibb.co/dwMUJT/bg5.jpg);
-} */
+
 .container {
+  margin: 0;
   width: 100vw;
-  min-height: 100vh;
-  padding-bottom: 60px;
-  background-color: rgba(0, 60, 70, 0.4);
   padding-top: 60px;
+  position: relative;
+  /* background-color: rgba(0, 60, 70, 0.4); */
+  /* height: 100vh;
+  overflow: auto; */
 }
+
+.background:before {
+  pointer-events: none;
+  display: block;
+  position: fixed;
+  content: ' ';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 60, 70, 0.4);
+  z-index: 0;
+}
+
 .content .center-img {
   width: 60vw;
 }
@@ -110,12 +119,29 @@ nav a:hover {
   max-width: 1000px;
   margin: auto;
 }
-
 .member {
   clear: both;
   margin-bottom: 20px;
   display: flex;
 }
+@media only screen and (max-width: 800px) {
+  .member {
+    flex-wrap: wrap;
+  }
+  nav {
+    padding-top: 50px;
+    justify-content: flex-start;
+    left: 0;
+    overflow: auto;
+  }
+  nav a {
+    padding: 10px;
+  }
+  .container {
+    padding-top: 90px;
+  }
+}
+
 .member img {
   flex-shrink: 0;
   align-self: center;
