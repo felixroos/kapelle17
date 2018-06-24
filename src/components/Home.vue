@@ -11,7 +11,7 @@
 <h3>Paul Janoschka - Piano</h3>
 <h3>Jakob Obleser - Bass</h3>
 <h3>Jonas Kaltenbach - Drums</h3>
-  </div>
+</div>
 </template>
 <script>
 /* eslint-disable */
