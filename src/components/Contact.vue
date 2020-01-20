@@ -5,7 +5,7 @@
     Jonas Kaltenbach<br>
     +4915227160448</p>
 
-  <img class="center-img" src="https://image.ibb.co/c0gCaJ/contact.jpg"/>
+  <img class="center-img" src="https://i.ibb.co/yh3C85g/contact.png"/>
   </div>
 </template>
 
